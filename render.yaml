@@ -2,6 +2,6 @@ services:
   - type: web
     name: flask-app
     env: python
-    buildCommand: "pip install -r requirements.txt"
+    buildCommand: "pip install"
     startCommand: "python app.py"
 
