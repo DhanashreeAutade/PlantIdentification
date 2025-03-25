@@ -1,0 +1,39 @@
+body{
+   
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    text-align: center;
+    
+    margin-top: 300px;
+    margin-left: 72px;
+}
+#setting{
+    border: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: lighter;
+}
+@media (max-width: 768px) {
+    body {
+        background-color: rgb(187, 237, 136);
+    }
+    #camera {
+        height: auto;
+    }
+    button {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-color: rgb(247, 252, 244);
+    }
+    #camera {
+        width: 90%;
+    }
+    button {
+        padding: 6px;
+    }
+}

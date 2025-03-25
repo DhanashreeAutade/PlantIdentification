@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.pinimg.com/736x/66/ed/e5/66ede557ff4cc465b54a751cc2035293.jpg');
+    background-size: cover;
+}
+
+/* Header */
+h2 {
+    color: #2d6a4f;
+    font-size: 24px;
+    margin-top: 20px;
+    
+}
+
+/* Camera & Image Input */
+#camera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    margin-left: 150px;
+}
+
+input[type="file"] {
+    display: block;
+    margin: 15px auto;
+    padding: 10px;
+    border: 1px solid #2d6a4f;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2d6a4f;
+    color: rgb(220, 245, 179);
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1024px) {
+    body {
+        background-color: rgb(200, 240, 150);
+    }
+    #camera {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: rgb(180, 230, 140);
+    }
+    #camera {
+        height: auto;
+    }
+    button {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-color: rgb(160, 220, 130);
+    }
+    #camera {
+        width: 90%;
+    }
+    button {
+        padding: 6px;
+    }
+}

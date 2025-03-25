@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(213, 250, 160);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+@media (max-width: 1024px) {
+    body {
+        background-color: rgb(200, 240, 150);
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: rgb(180, 230, 140);
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-color: rgb(160, 220, 130);
+    }
+}

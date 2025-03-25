@@ -1,0 +1,227 @@
+body{
+    color: rgb(23, 23, 23);
+    background-color: #a2d86dca;
+}
+
+#logo{
+position: absolute;
+background-image: url("https://cdn-icons-png.freepik.com/256/16600/16600271.png?uid=R158354983&ga=GA1.1.1940708214.1723121699&semt=ais_hybrid");
+background-size: cover;
+width: 25px;
+height: 25px;
+left: 292px;
+top: 40px;
+}
+
+#logo1{
+position: absolute;
+background-image: url("https://cdn-icons-png.freepik.com/256/13924/13924070.png?uid=R158354983&ga=GA1.1.1940708214.1723121699&semt=ais_hybrid");
+background-size: cover;
+color: black;
+width: 25px;
+height: 24px;
+left: 340px;
+top: 37px;
+}
+
+/* OUTER BOX */
+.plant-box {
+    position: absolute;
+    width: 160px;
+    height: 242px;
+    background: #fdfafa;
+    box-shadow: 0px 20px 52px rgba(0, 0, 0, 0.15);
+    border-radius: 18px;
+}
+#plant3 .label a {
+    text-decoration: none;
+    color: inherit; 
+}
+#plant4 .label a {
+    text-decoration: none;
+    color: inherit; 
+}
+/* BOX FOR NAME OF TREES */
+.plant-box .label {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(239, 246, 238);
+    color: rgb(17, 16, 16);
+    display: flex;
+    justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 0 0 18px 18px;
+}
+/* Positioning each plant */
+#plant1 { 
+    left: 25px; top: 420px; 
+    background-image: url("https://i.pinimg.com/236x/31/d2/eb/31d2eb8e5dd5a25cae982f283bf884a0.jpg");
+     background-size: cover; 
+} 
+#plant2 { 
+    left: 210px; top: 150px; 
+    background-image: url("https://i.pinimg.com/236x/51/eb/29/51eb29474023824e5261461f801b2d3c.jpg");
+     background-size: cover;
+} 
+#plant3 { 
+    left: 25px; top: 150px; 
+    background-image: url("https://i.pinimg.com/236x/66/ea/fa/66eafacd801fabe9a4e542e2aa1847c3.jpg");
+    background-size: cover; 
+
+}  /* neem */
+#plant4 { 
+    left: 210px; top: 420px; 
+    background-image: url("https://i.pinimg.com/236x/6d/a9/e4/6da9e458b9b957a488a6f0c8a8ce7cc5.jpg");
+    background-size: cover;
+}  
+#plant5 { 
+    left: 25px; top: 690px; 
+    background-image: url("https://i.pinimg.com/236x/79/7b/2a/797b2a0f153ca4b13d6883cfa21ed80d.jpg");
+    background-size: cover;
+}   
+#plant6 { 
+    left: 210px; top: 690px; 
+    background-image: url("https://i.pinimg.com/236x/be/31/ad/be31ad8a2a4a603bb5e20922d432e2d5.jpg"); 
+    background-size: cover;
+} 
+#plant7 { 
+    left: 210px; top: 960px; 
+    background-image: url("https://i.pinimg.com/236x/22/1d/49/221d49c553c3ff84a56300e40855a6d6.jpg"); 
+    background-size: cover;
+} 
+#plant8 {   
+
+    left: 25px; top: 960px; 
+    background-image: url("https://i.pinimg.com/236x/07/95/94/079594f8aa485447059bc63e9ea65649.jpg"); 
+    background-size: cover;
+}
+#plant9 {   
+
+    left: 25px; top: 1227px; 
+    background-image: url("https://i.pinimg.com/236x/70/46/b5/7046b590998b94dab3bb7041a587edc7.jpg"); 
+    background-size: cover;
+}
+#plant10 {   
+
+    left: 210px; top: 1227px; 
+    background-image: url("https://i.pinimg.com/236x/77/ba/38/77ba38fa31da359cba67b587af5cc527.jpg"); 
+    background-size: cover;
+}
+#plant11 {    
+
+    left: 25px; top: 1495px; 
+    background-image: url("https://i.pinimg.com/236x/da/b3/3b/dab33bfc26a514b0bbaa5d4914b033ab.jpg"); 
+    background-size: cover;
+}
+#plant12 {   
+
+    left: 210px; top: 1495px; 
+    background-image: url("https://i.pinimg.com/236x/a1/dc/7b/a1dc7bdad0a82e30f3f76f6d29028541.jpg"); 
+    background-size: cover;
+}
+#foot{
+    position:fixed;
+    bottom: 0px;
+    right: 0px;
+    height: 70px;
+    width: 392px;
+    background-color: rgb(249, 252, 249);
+    color: rgb(124, 5, 5);
+    border-radius: 10px;
+}
+#home{
+    background-image: url("https://cdn-icons-png.freepik.com/256/5874/5874149.png?uid=R158354983&ga=GA1.1.1940708214.1723121699&semt=ais_hybrid");
+    background-size: cover;
+    position: relative;
+    top: 15px;
+    left: 30px;
+    height: 30px;
+    width: 30px;
+}
+#scan{
+    position:fixed;
+    background-color: rgb(127, 239, 140);
+    height: 70px;
+    width: 70px;
+    left: 163px;
+    bottom: 25px;
+    border-radius: 50%;
+}
+
+#scanner{
+        position: fixed;
+        background-image: url("https://cdn-icons-png.freepik.com/256/12556/12556916.png?uid=R158354983&ga=GA1.1.1940708214.1723121699&semt=ais_hybrid");
+        background-size: cover;
+        color: black;
+        width: 35px;
+        height: 35px;
+        bottom: 42px;
+        left: 180px;
+}
+
+    
+#help{
+    position: fixed;
+    background-image: url("https://cdn-icons-png.freepik.com/256/7646/7646614.png?uid=R158354983&ga=GA1.1.1940708214.1723121699&semt=ais_hybrid");
+    background-size: cover;
+    color: black;
+    width: 35px;
+    height: 35px;
+    bottom: 25px;
+    left: 324px;
+}
+
+
+/* 📌 Media Queries for Different Screen Sizes  */
+  @media (max-width: 1024px) {
+    .plant-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: 15px;
+    }
+   }
+
+
+@media (max-width: 768px) {
+    .plant-container {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 10px;
+    }
+
+    .plant-box {
+        width: 140px;
+        height: 220px;
+    }
+
+    #foot {
+        height: 60px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .plant-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .plant-box {
+        width: 90%;
+        height: auto;
+    }
+
+    #foot {
+        height: 55px;
+        font-size: 0.8rem;
+    }
+
+    #scan {
+        width: 60px;
+        height: 60px;
+        bottom: 20px;
+    }
+} 

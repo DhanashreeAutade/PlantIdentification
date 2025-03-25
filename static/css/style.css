@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url(https://i.pinimg.com/474x/22/4a/5d/224a5d9dee35891a8af44b92e60c89f3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    text-align: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Header Section */
+  .header {
+    margin-top: 30px;
+  }
+  
+  .app-name {
+    font-size: 2.5rem;
+    color: #123524;
+    text-shadow: #333;
+    font-weight: bold;
+  }
+  
+  .tagline {
+    font-size: 1rem;
+    color: #28462c;
+    margin-top: 5px;
+  }
+  
+  /* Main Section */
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .scan-button {
+    background-color: #31511E;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    width: 80%;
+    max-width: 300px;
+  }
+  
+  .scan-button:hover {
+    background-color: #31511E;
+    transform: translateY(-3px);
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .app-name {
+      font-size: 2.2rem;
+    }
+    .tagline {
+      font-size: 1rem;
+    }
+    .scan-button {
+      font-size: 1.1rem;
+      padding: 14px 22px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .app-name {
+      font-size: 2rem;
+    }
+    .tagline {
+      font-size: 0.9rem;
+    }
+    .scan-button {
+      font-size: 1rem;
+      padding: 12px 20px;
+    }
+  }
+  
