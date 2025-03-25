@@ -162,7 +162,8 @@ def predict():
             'details': str(e),
             'suggestion': 'Try a different image or check server logs'
         }), 500
-        
+         
+         
     finally:
         for path in temp_files:
             try:
